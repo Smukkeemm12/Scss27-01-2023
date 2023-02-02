@@ -1,8 +1,4 @@
 /*Variabler*/
-nav {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
 /*Mixins*/
 body {
   margin: 0;
@@ -35,4 +31,31 @@ body header {
   justify-content: space-between;
   background-color: #ffffff;
   border-bottom: 4px solid #3a8479;
+}
+body nav {
+  color: #484848;
+  height: 4em;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body nav img {
+  width: 70px;
+}
+body nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+body nav a {
+  color: #484848;
+  padding: 0.5em;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+body nav a:hover {
+  color: #3a8479;
 }/*# sourceMappingURL=style.css.map */
